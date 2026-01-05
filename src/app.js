@@ -39,7 +39,7 @@ app.get('/about', (req,res)=> {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'Hello and welcome to my Weather App! Here’s how it works: simply enter any city, and the app will provide the latest weather information. You’ll see the current temperature as well as an estimate of what it actually feels like.I hope you enjoy using my Weather App!',
         title: 'Help',
         name: 'Amadeo Ramirez'
     })
