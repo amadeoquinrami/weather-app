@@ -62,10 +62,4 @@ weatherForm.addEventListener('submit', (e) => {
             console.error(error)
         })
     })
-        //        console.log(data.error)
-        //    } else {
-        //        console.log(data.location)
-        //        console.log(data.forecast)
-        //    }
-// if (weatherForm) {
-//         }
+  
