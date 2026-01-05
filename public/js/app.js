@@ -1,5 +1,5 @@
 
-console.log("Weather app loaded")
+
 
 // Optional: puzzle API test
 fetch('https://puzzle.mead.io/puzzle')
