@@ -19,6 +19,11 @@ body {
 .main-content {
     flex-grow: 1;
 }
+/* .main-content img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 footer {
    color: #888888;
@@ -30,6 +35,15 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+}
+a {
+    color: #888888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2a1abd;
 }
 h1 {
     font-size: 64px;
@@ -91,4 +105,31 @@ select {
     width: 250px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+/* about me  */
+
+.about-me {
+  padding: 20px;                  
+  border: 2px solid rgba(255,255,255,0.5); 
+  border-radius: 15px;            
+  background: rgba(255, 255, 255, 0.2);   
+  backdrop-filter: blur(10px);    
+  -webkit-backdrop-filter: blur(10px);
+  color: #000000;                    
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2); 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*  */
+.helptext {
+  padding: 20px;                  
+  border: 2px solid rgba(255,255,255,0.5); 
+  border-radius: 15px;            
+  background: rgba(255, 255, 255, 0.2);   
+  backdrop-filter: blur(10px);    
+  -webkit-backdrop-filter: blur(10px);
+  color: #000000;                    
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2); 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
