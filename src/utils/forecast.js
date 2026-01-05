@@ -16,9 +16,6 @@ request({ url , json: true}, (error, {body}) => {
                 The Humidity is ${body.current.humidity}%.`
 
                 callback(undefined, forecast)
-
-        //     console.log(body.daily.data[0])    
-        //     callback(undefined, `${ body.current.weather_descriptions[0]} . It is currently ${ body.current.temperature} degress out. It feels like ${ body.current.feelslike} degress.`)
     }
 })
 } 
